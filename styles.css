@@ -1,0 +1,51 @@
+img{
+    display: inline;
+  width: 300px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid white;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
+  #intro{
+    display: flex;
+    border: 1px solid white;
+    height: 320px;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  #quote{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+#qtxt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: cursive, 'Brush Script MT', 'Lucida Handwriting', sans-serif;
+}
+#link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+figcaption{
+    padding-left: 95px;
+    font-size: 20px;
+}
+#line{
+    font-family: 'Courier New', monospace;
+}
+#intro:hover,#quote:hover{
+    background-color: white;
+    color: black;
+}
